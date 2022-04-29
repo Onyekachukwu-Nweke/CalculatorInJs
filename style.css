@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+}
+
+.container {
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('calc.jpg');
+    margin: 0 auto;
+}
+
+.calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
