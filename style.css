@@ -10,14 +10,14 @@ body {
     display: flex;
 }
 
-.container {
+#container {
     width: 1000px;
     height: 550px;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('calc.jpg');
     margin: 0 auto;
 }
 
-.calculator {
+#calculator {
     width: 320px;
     height: 520px;
     background-color: #eaedef;
@@ -28,11 +28,11 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.result {
+#result {
     height: 120px;
 }
 
-.history {
+#history {
     text-align: right;
     height: 20px;
     margin: 0 20px;
@@ -41,17 +41,15 @@ body {
     color: #919191;
 }
 
-.output {
+#output {
     text-align: right;
     height: 60px;
     margin: 10px 20px;
     font-size: 30px;
-    position: relative;
-    top: 10px;
     padding-top: 20px;
 }
 
-.keyboard {
+#keyboard {
     height: 400px;
 }
 
